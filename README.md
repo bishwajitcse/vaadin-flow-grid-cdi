@@ -1,0 +1,1 @@
+vaadin-flow-grid-cdi
