@@ -1,9 +1,6 @@
 package com.lausn.grid.cdi;
 
-import javax.inject.Inject;
-
 import com.lausn.grid.cdi.grid.page.GridPage;
-import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
