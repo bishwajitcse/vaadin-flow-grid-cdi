@@ -1,0 +1,28 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/vaadin-button/src/vaadin-button.html">
+
+<dom-module id="simple-page">
+    <template>
+<style include="shared-styles">
+            :host {
+                display: block;
+            }
+        </style>
+<div style="width: 100%; height: 100%;">
+ <label>This is page 2. Please back 1st page</label>
+</div>
+</template>
+    <script>
+        class SimplePage extends Polymer.Element {
+            static get is() {
+                return 'simple-page';
+            }
+            static get properties() {
+                return {
+                    // Declare your properties here.
+                };
+            }
+        }
+        customElements.define(SimplePage.is, SimplePage);
+    </script>
+</dom-module>

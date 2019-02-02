@@ -1,0 +1,5 @@
+defaultJavaCompanionFolder=src/main/java/com/lausn/grid/cdi
+defaultTemplateFolder=src/main/webapp/frontend
+eclipse.preferences.version=1
+serverAddress=192.168.0.107
+serverPort=56241
